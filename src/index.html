@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autocomplete com CEP</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="./assets/js/script.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <form action="">
+        <input type="text" id="cep" placeholder="CEP: 13312755" maxlength="9" minlength="8" required>
+        <input type="text" id="estado" placeholder="Estado" readonly>
+        <input type="text" id="cidade" placeholder="Cidade" readonly>
+        <input type="text" id="bairro" placeholder="Bairro" readonly>
+        <input type="text" id="rua" placeholder="Rua" readonly>
+        <input type="text" id="number" placeholder="Numero" required>
+        <input type="text" id="complemento" placeholder="Complemento (opcional)">
+        <input type="submit" id="btn" disabled="true">
+    </form>
+</body>
+
+</html>
